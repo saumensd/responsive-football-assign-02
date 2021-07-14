@@ -14,9 +14,8 @@ body{
     margin-bottom: 20px;
 }
 .text {
-    font-size: 34px;
-    size: 64px;
-    padding-top: 105px;
+    font-size: 64px;
+    padding-top: 10px;
     padding-left: 20px;
     
 }
@@ -26,6 +25,7 @@ body{
 }
 .half-width{
        width: 50%;
+       padding-bottom: 90px;
 }
 .half-width img{
     width: 556.01px;
