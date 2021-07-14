@@ -73,11 +73,11 @@ a{
 /* ----------------
 footer
 -------------- */
-.logo-football img{
+ .logo-football img{
     width: 30%;
     margin-left: 350px;
     margin-top: 50px;
-}
+} 
 .filled{
     color: gray;
 }
@@ -118,4 +118,12 @@ footer
     margin-left: 50px;
     margin-top: 50px;
     }
+}
+/* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .part-two{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
 }
