@@ -9,6 +9,9 @@ body{
 p{
     font-family: 'Poppins', sans-serif;
 }
+/*---------------
+ Header Background 
+ ----------------*/
 .part-one{
     display: flex;
     background-color: blue;
@@ -20,6 +23,7 @@ p{
     padding-top: 10px;
     padding-left: 20px;
 }
+/* yellow hover background in header image */
 .part-one:hover{
     background-color: yellow;
     color: rgb(231, 200, 218);
@@ -66,6 +70,9 @@ a{
     border: 10px solid whitesmoke;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
+/* ----------------
+footer
+-------------- */
 .logo-football img{
     width: 30%;
     margin-left: 350px;
