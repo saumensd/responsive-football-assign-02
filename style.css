@@ -81,13 +81,41 @@ footer
 .filled{
     color: gray;
 }
- .social{
-    margin-left: 550px;
-    margin-top: 10px;
+.social{
+   display: flex;
+   justify-content: center;
+   
 }
+.filled{
+    margin-left: 10px;
+}
+
 .paragraph{
     text-align: center;
 }
+/* media queries */
+/* mobile devices */
 
-
-
+@media only screen and (max-width:688px){
+   .text{ 
+       background-color: rgb(42, 23, 42);
+       font-size: large;
+        padding: 100%;        
+    }
+    .half-width img{
+        margin-left: 0px;
+        width: 200%;
+    }
+    .part-two{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .part-one{
+        flex-direction: column;
+    }
+    .logo-football img{
+    width:30%;
+    margin-left: 50px;
+    margin-top: 50px;
+    }
+}
